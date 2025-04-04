@@ -27,7 +27,7 @@ It supports full integration with item-based frameworks, animations, prompts, an
 - Full client/server logic with animations and distance checks  
 - Optional slash commands and item requirements  
 - Cleans up on respawn
-- Over 40 national, tribal, and state flags already set up on config to be used (Flags are NOT INCLUDED!) B
+- Over 40 national, tribal, and state flags already set up on config to be used (only 2 Flags are INCLUDED México and Canada!) 
 
 ![imagem](https://github.com/user-attachments/assets/31dde33b-d76a-48bb-be80-94f0de7b60df)
 
