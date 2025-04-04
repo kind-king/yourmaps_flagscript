@@ -80,7 +80,12 @@ After that, restart your server and enjoy!
 ![imagem](https://github.com/user-attachments/assets/27960af6-3c6b-42e5-9230-5e153ca96f91)
 
 
-This script was developed due to the lack of standalone flag scripts for RedM. 
+This script was developed due to the lack of standalone flag systems available for RedM.
+
+It is a fully open-source and free script designed to expand roleplay possibilities by allowing players to carry, drop, and interact with immersive flags in-game.
+
+Feel free to edit, expand, or adapt the code to fit your server's needs.
+If you add new features or improvements, we encourage you to share them with the community so others can benefit too!
 
 ---
 
