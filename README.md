@@ -1,7 +1,6 @@
 # YourMAPS FlagScript
 
 
-YourMAPS Flagscript 
 
 A flag system for **RedM**, created to fill the gap in available scripts that allow players to equip and interact with flags as in-game items.
 
@@ -17,6 +16,7 @@ It supports full integration with item-based frameworks, animations, prompts, an
 - ✅ **OTHER** (basic usage with native text prompts)
 
 ---
+![imagem](https://github.com/user-attachments/assets/df485fa2-3a59-4767-93ef-7c519d5e2233)
 
 ## Key Features
 
@@ -26,6 +26,8 @@ It supports full integration with item-based frameworks, animations, prompts, an
 - Optional slash commands and item requirements  
 - Cleans up on respawn
 - Over 40 national, tribal, and state flags already set up on config to be used (Flags are NOT INCLUDED!) B
+
+![imagem](https://github.com/user-attachments/assets/c52768b7-6bea-4f11-af70-4236dedb206d)
 
 ---
 
@@ -40,6 +42,8 @@ Installation
     Configure everything in config.lua.
 
 ---
+
+![imagem](https://github.com/user-attachments/assets/096e9990-c986-4921-a550-40aed9d7688f)
 
 This script was developed due to the lack of standalone flag scripts for RedM. 
 
