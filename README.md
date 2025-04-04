@@ -16,7 +16,9 @@ It supports full integration with item-based frameworks, animations, prompts, an
 - ✅ **OTHER** (basic usage with native text prompts)
 
 ---
-![imagem](https://github.com/user-attachments/assets/df485fa2-3a59-4767-93ef-7c519d5e2233)
+![imagem](https://github.com/user-attachments/assets/df41b58d-4426-4485-aaa7-026e5259950c)
+
+
 
 ## Key Features
 
@@ -27,7 +29,8 @@ It supports full integration with item-based frameworks, animations, prompts, an
 - Cleans up on respawn
 - Over 40 national, tribal, and state flags already set up on config to be used (Flags are NOT INCLUDED!) B
 
-![imagem](https://github.com/user-attachments/assets/c52768b7-6bea-4f11-af70-4236dedb206d)
+![imagem](https://github.com/user-attachments/assets/31dde33b-d76a-48bb-be80-94f0de7b60df)
+
 
 ---
 
@@ -43,7 +46,8 @@ Installation
 
 ---
 
-![imagem](https://github.com/user-attachments/assets/096e9990-c986-4921-a550-40aed9d7688f)
+![imagem](https://github.com/user-attachments/assets/27960af6-3c6b-42e5-9230-5e153ca96f91)
+
 
 This script was developed due to the lack of standalone flag scripts for RedM. 
 
