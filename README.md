@@ -47,13 +47,33 @@ Join our community for help, updates, and suggestions regarding the flag system 
 
 Installation
 
-    Place the folder yourmaps_flags inside your RedM resources.
+    Place the resource:
 
-    Add the following to your server.cfg:
+Put the folder yourmaps_flags inside your RedM resources directory.
 
-  ensure yourmaps_flags
+    Start the script:
 
-    Configure everything in config.lua.
+Add this line to your server.cfg:
+
+ ensure yourmaps_flags
+
+    Configure the script:
+
+Open config.lua and adjust the settings, keybinds, language translation and flags to your preference.
+
+    Create the flag items:
+
+This script uses inventory items to spawn flags.
+
+**You must create the flag items in your inventory system**, using either:
+
+    Your framework's item registration method, OR
+
+    Directly inserting them into your database via SQL.
+
+    ⚠️ Note: All usable flag items are already listed inside config.lua and on SQL file for easy copy/paste into your item database.
+
+After that, restart your server and enjoy! 
 
 ---
 
