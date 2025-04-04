@@ -27,7 +27,6 @@ Config.flagdeletedescription = 'Put the flag away.'
 -- KEYBINDS
 Config.useKeys = true
 Config.takeOutFlag = false
-Config.flaguseKey = "B"
 Config.pickupKey = "G"
 Config.dropKey = "G"
 Config.deleteKey = "BACKSPACE"
