@@ -291,8 +291,6 @@ else
     end)
 end
 
-local keyCooldown = false
-
 CreateThread(function()
     while true do
         Wait(1)
@@ -300,13 +298,7 @@ CreateThread(function()
         if Config.useKeys then
             local ped = PlayerPedId()
 
-            if not keyCooldown and IsControlPressed(0, keylist[Config.flaguseKey]) then
-                keyCooldown = true
-                TriggerEvent("yourmaps_flags_UseFlag", Config.defaultFlagType or "american")
-                Wait(1500)
-                keyCooldown = false
-
-            elseif not keyCooldown and flagout and IsControlPressed(0, keylist[Config.pickupKey]) then
+            if not keyCooldown and flagout and IsControlPressed(0, keylist[Config.pickupKey]) then
                 keyCooldown = true
                 if equipped then
                     TriggerEvent('yourmaps_flags:DropFlag')
