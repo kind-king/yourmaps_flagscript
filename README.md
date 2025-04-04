@@ -1,7 +1,7 @@
 # YourMAPS FlagScript
 
 
-# YourMAPS Flagscript 🎌
+YourMAPS Flagscript 
 
 A flag system for **RedM**, created to fill the gap in available scripts that allow players to equip and interact with flags as in-game items.
 
