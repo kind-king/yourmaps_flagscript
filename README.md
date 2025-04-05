@@ -9,9 +9,9 @@ It supports full integration with item-based frameworks, animations, prompts, an
 
 ## Supported Frameworks
 
-- ✅ **REDEMRP** (fully integrated with item usage and jobs)
-- ✅ **VORP** (with built-in prompt support)
-- ✅ **OTHER** (basic usage with native text prompts)
+- ✅ **REDEMRP** 
+- ✅ **VORP** 
+- ✅ **OTHER** 
 
 ---
 ![imagem](https://github.com/user-attachments/assets/df41b58d-4426-4485-aaa7-026e5259950c)
