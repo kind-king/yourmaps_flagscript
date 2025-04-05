@@ -33,10 +33,8 @@ Works with REDEMRP, VORP, or any other framework. You can restrict flags to spec
 - Automatic Cleanup on Respawn
 Ensures flags are removed or reset when a player dies or respawns, preventing visual or logic issues.
 
-- 40+ Flags Preconfigured
-Includes national, tribal, and in-game state flags.
-Only Mexico, Canada, LGBTQ, and Trans flags are included by default.
-Other flags are not included on this free release.
+- Only Mexico, Canada, LGBTQ, and Trans flags are included by default. 40+ Flags Preconfigured
+Includes national, tribal, and in-game state flags. Other flags are not included on this free release.
 
 - Support Available
 Join our community for help, updates, and suggestions regarding the flag system or other mapping support.
