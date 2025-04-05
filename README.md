@@ -36,7 +36,7 @@ Ensures flags are removed or reset when a player dies or respawns, preventing vi
 - Only Mexico, Canada, LGBTQ, and Trans flags are included by default. 40+ Flags Preconfigured
 Includes national, tribal, and in-game state flags. Other flags are not included on this free release.
 
-- Support Available
+- Support Available:
 Join our community for help, updates, and suggestions regarding the flag system or other mapping support.
 
 ![imagem](https://github.com/user-attachments/assets/31dde33b-d76a-48bb-be80-94f0de7b60df)
