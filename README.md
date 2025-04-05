@@ -18,19 +18,19 @@ It supports full integration with item-based frameworks, animations, prompts, an
 
 ## Key Features
 
-- Carry Flags in Hand
+- Carry Flags in Hand:
 Players can equip and carry flags using immersive animations and prop attachments.
 
-- Drop & Pick Up with Keybinds
+- Drop & Pick Up with Keybinds:
 Easily drop flags on the ground or pick them up again using fully configurable keybinds.
 
-- Client & Server-Side Logic
+- Client & Server-Side Logic:
 Handles full animation flow, object attachment, drop/pickup distances, item checks, and cleanup logic.
 
-- Optional Slash Commands & Item Requirements
+- Optional Slash Commands & Item Requirements:
 Works with REDEMRP, VORP, or any other framework. You can restrict flags to specific items or jobs if desired.
 
-- Automatic Cleanup on Respawn
+- Automatic Cleanup on Respawn:
 Ensures flags are removed or reset when a player dies or respawns, preventing visual or logic issues.
 
 - Only Mexico, Canada, LGBTQ, and Trans flags are included by default. 40+ Flags Preconfigured
