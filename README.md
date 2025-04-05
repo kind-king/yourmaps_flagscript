@@ -13,6 +13,10 @@ It supports full integration with item-based frameworks, animations, prompts, an
 - ✅ **VORP** 
 - ✅ **OTHER** 
 
+## Includes
+
+4 yft flags: Mexico, Canada, Lgbtq, Trans
+
 ---
 ![imagem](https://github.com/user-attachments/assets/df41b58d-4426-4485-aaa7-026e5259950c)
 
@@ -34,7 +38,7 @@ Works with REDEMRP, VORP, or any other framework. You can restrict flags to spec
 Ensures flags are removed or reset when a player dies or respawns, preventing visual or logic issues.
 
 - Only Mexico, Canada, LGBTQ, and Trans flags are included by default. 40+ Flags Preconfigured
-Includes national, tribal, and in-game state flags. Other flags are not included on this free release.
+including national, tribal, and in-game state flags not included on the free release.
 
 - Support Available:
 Join our community for help, updates, and suggestions regarding the flag system or other mapping support.
