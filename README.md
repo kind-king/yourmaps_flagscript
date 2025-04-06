@@ -3,7 +3,7 @@
 A flag system for **RedM**, created to fill the gap in available scripts that allow players to equip and interact with flags as in-game items.
 
 This system enables players to carry, drop, and pick up flags in an immersive and configurable way. 
-It supports full integration with item-based frameworks, animations, prompts, and a wide selection of customizable flags.
+It supports full integration with item-based frameworks, animations and prompts.
 
 ---
 
