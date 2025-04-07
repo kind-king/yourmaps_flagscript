@@ -12,9 +12,7 @@ CreateThread(function()
 
     if fw == "VORP" then
         -- Get VORP Core and Inventory APIs
-        TriggerEvent("getCore", function(core)
-            VorpCore = core
-        end)
+        VorpCore = exports.vorp_core:GetCore()
 
         VorpInv = exports.vorp_inventory:vorp_inventoryApi()
 
@@ -33,7 +31,7 @@ local function displayUserText(text, source)
     if fw == "REDEMRP" and Config.nativeText == false then
         TriggerClientEvent("redem_roleplay:Tip", source, text, Config.timeDisplay)
     else
-        TriggerClientEvent("yourmaps_flags:TextTip", source, text, Config.timeDisplay)
+        TriggerClientEvent('vorp:Tip', source, text, Config.timeDisplay)
     end
 end
 
@@ -133,9 +131,6 @@ CreateThread(function()
                     end
 
                     if itemFound and jobFound then
-                        if Config.textOnUse then
-                            displayUserText(Config.useKeys and (Config.flagouttext .. Config.deployFlagPrompt) or Config.flagouttext, source)
-                        end
                         TriggerClientEvent("yourmaps_flags_UseFlag", source, type)
                     elseif Config.debug then
                         print("[REDEMRP FLAG USE FAILED]", item.name, itemFound, jobFound)
@@ -145,9 +140,13 @@ CreateThread(function()
 
         elseif fw == "VORP" then
             -- VORP Usable Item Registration
-            VorpInv.RegisterUsableItem(item.name, function(source)
+            VorpInv.RegisterUsableItem(item.name, function(data)
+                local source = data.source
+                local itemId = data.item.mainid
+                exports.vorp_inventory:closeInventory(source)
+
                 local User = VorpCore.getUser(source)
-                if not User then return end
+                if not User then return print("USER NOT FOUND") end
                 local Character = User.getUsedCharacter
                 local itemFound = VorpInv.getItemCount(source, item.name) > 0
                 local type = item.type or Config.defaultFlagType
@@ -163,14 +162,13 @@ CreateThread(function()
                 end
 
                 if itemFound and jobFound then
-                    if Config.textOnUse then
-                        displayUserText(Config.useKeys and (Config.flagouttext .. Config.deployFlagPrompt) or Config.flagouttext, source)
-                    end
                     TriggerClientEvent("yourmaps_flags_UseFlag", source, type)
                 elseif Config.debug then
                     print("[VORP FLAG USE FAILED]", item.name, itemFound, jobFound)
                 end
             end)
+        else
+            print("UNKNOWN FRAMEWORK", fw)
         end
     end
 end)
@@ -192,14 +190,14 @@ CreateThread(function()
     if Config.slashCommands then
         RegisterCommand(Config.flagdrop, function(source)
             TriggerClientEvent('yourmaps_flags:DropFlag', source)
-        end)
+        end, false)
 
         RegisterCommand(Config.flagpickup, function(source)
             TriggerClientEvent('yourmaps_flags:PickupFlag', source)
-        end)
+        end, false)
 
         RegisterCommand(Config.flagdelete, function(source)
             TriggerClientEvent('yourmaps_flags:DelFlag', source)
-        end)
+        end, false)
     end
 end)

@@ -1,8 +1,9 @@
-INSERT INTO items (`item`, `label`, `limit`, `can_remove`, `type`, `weight`, `usable`, `composable`, `description`) VALUES
+INSERT INTO items (`item`, `label`, `limit`, `can_remove`, `type`, `weight`, `usable`, `degradation`, `desc`) VALUES
 ('americanflag', 'American Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys American Flag'),
 ('mexicanflag', 'Mexican Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Mexican Flag'),
 ('canadaflag', 'Canada Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Canada Flag'),
 ('piratesflag', 'Pirate Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Pirate Flag'),
+('transgflag', 'TRANSG Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys TRANSG Flag'),
 ('lgbtqflag', 'LGBTQ Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys LGBTQ Flag'),
 ('gypsyflag', 'Gypsy Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Gypsy Flag'),
 ('irishflag', 'Irish Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Irish Flag'),
@@ -40,7 +41,6 @@ INSERT INTO items (`item`, `label`, `limit`, `can_remove`, `type`, `weight`, `us
 ('polandflag', 'Poland Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Poland Flag'),
 ('portugalflag', 'Portugal Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Portugal Flag'),
 ('puertoricoflag', 'Puerto Rico Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Puerto Rico Flag'),
-('russiaflag', 'Russia Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Russia Flag'),
 ('saudiflag', 'Saudi Arabia Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Saudi Arabia Flag'),
 ('serbiaflag', 'Serbia Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Serbia Flag'),
 ('spainflag', 'Spain Flag', 1, 1, 'item_standard', 0.5, 1, 0, 'Deploys Spain Flag'),
